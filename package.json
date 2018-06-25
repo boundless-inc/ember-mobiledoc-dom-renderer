@@ -28,7 +28,7 @@
     "ember-cli-htmlbars": "^2.0.3",
     "ember-getowner-polyfill": "^2.0.1",
     "ember-wormhole": "^0.5.2",
-    "mobiledoc-dom-renderer": "https://github.com/boundless-inc/mobiledoc-dom-renderer.git#add-small-to-tagnames"
+    "mobiledoc-dom-renderer": "https://github.com/boundless-inc/mobiledoc-dom-renderer.git#570f856cdb7449a99ad3cd53be8cc1e346577f75"
   },
   "devDependencies": {
     "broccoli-asset-rev": "^2.6.0",
