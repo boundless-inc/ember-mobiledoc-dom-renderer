@@ -1,5 +1,5 @@
 {
-  "name": "ember-mobiledoc-dom-renderer",
+  "name": "@boundless-inc/ember-mobiledoc-dom-renderer",
   "version": "0.6.0",
   "description": "provides a runtime mobiledoc dom-renderer to ember apps",
   "keywords": [
@@ -13,7 +13,10 @@
     "doc": "doc",
     "test": "tests"
   },
-  "repository": "https://github.com/bustlelabs/ember-mobiledoc-dom-renderer",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boundless-inc/ember-mobiledoc-dom-renderer.git"
+  },
   "scripts": {
     "build": "ember build",
     "start": "ember server",
@@ -28,7 +31,7 @@
     "ember-cli-htmlbars": "^2.0.3",
     "ember-getowner-polyfill": "^2.0.1",
     "ember-wormhole": "^0.5.2",
-    "mobiledoc-dom-renderer": "https://github.com/boundless-inc/mobiledoc-dom-renderer.git#570f856cdb7449a99ad3cd53be8cc1e346577f75"
+    "mobiledoc-dom-renderer": "git+https://github.com/boundless-inc/mobiledoc-dom-renderer.git#570f856cdb7449a99ad3cd53be8cc1e346577f75"
   },
   "devDependencies": {
     "broccoli-asset-rev": "^2.6.0",
@@ -57,5 +60,10 @@
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/boundless-inc/ember-mobiledoc-dom-renderer/issues"
+  },
+  "homepage": "https://github.com/boundless-inc/ember-mobiledoc-dom-renderer#readme",
+  "main": "index.js"
 }
